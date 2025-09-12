@@ -1,8 +1,10 @@
-
-
-const config = {
-  darkMode:'selector',
-  plugins: ["@tailwindcss/postcss"],
+export default {
+  darkMode: "class", // Enable dark mode via class
+  content: [
+    "./app/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./pages/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -14,12 +16,7 @@ const config = {
         Outfit: ["Outfit", "sans-serif"],
         Ovo: ["Ovo", "serif"],
       },
-      boxShadow: {
-        'black': '4px 4px 0 #000',
-        'white':'4px 4px 0 #fff',
-      },
     },
   },
+  plugins: [],
 };
-
-export default config;
