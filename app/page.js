@@ -17,7 +17,7 @@ export default function Home() {
   
 
   return (
-    <div className=" min-h-screen ">
+    <div className=" min-h-screen overflow-x-hidden">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Header />
       <About darkMode={darkMode} setDarkMode={setDarkMode} />
