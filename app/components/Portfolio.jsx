@@ -80,7 +80,7 @@ const Portfolio = () => (
                 href={project.live}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 px-4 py-2 bg-gradient-to-r from-purple-600 to-purple-400 text-white rounded-lg font-bold shadow hover:from-purple-800 hover:to-purple-600 transition-all duration-300 text-center"
+                className="flex-1 px-1 py-1 md:px-4 md:py-2 bg-gradient-to-r from-purple-600 to-purple-400 text-white rounded-lg font-bold shadow hover:from-purple-800 hover:to-purple-600 transition-all duration-300 text-center"
               >
                 Live Preview
               </motion.a>
@@ -92,7 +92,7 @@ const Portfolio = () => (
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 px-4 py-2 border-2 border-purple-600 text-purple-700 dark:text-purple-300 rounded-lg font-bold shadow hover:bg-purple-600 hover:text-white transition-all duration-300 text-center"
+                className="flex-1 px-1 py-1 md:px-4 md:py-2 border-2 border-purple-600 text-purple-700 dark:text-purple-300 rounded-lg font-bold shadow hover:bg-purple-600 hover:text-white transition-all duration-300 text-center"
               >
                 GitHub
               </motion.a>
